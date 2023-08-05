@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(18, 12, 31);
+}
+
+h1 {
+    color: rgb(222, 177, 196);
+   font-family:'Courier New', Courier, monospace;
+   text-align: center;
+   padding: 1%;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+.enlace {
+    text-align: center; 
+}
+
+#foto {
+ margin-right: 6%;
+ width: 15%;
+}
+
+.link {
+    margin: 8%;
+}
+
+p {
+    color: aliceblue;
+    margin: 4%;
+}
+
+.parrafo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+a:hover {
+    color:aqua;
+}
+
+#mascotas:hover {
+ color: blueviolet;
+}
+
+p::first-letter  {
+ color: rgb(210, 210, 176);
+ font-size: 180%
+}
+
+h2 {
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+.carruselfotos img{
+    width: 200px;
+    margin: 15px;
+}
+
+.carruselfotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carruselfotos img:hover {
+    width: 230px;
+    margin: 0px;
+}
+
+#mascotas {
+    margin: 0%;
+    color: rgba(255, 161, 252, 0.884);    
+}
+
+#animalitos img{
+    height: 150px;
+    display: flex;
+    margin: 50px;
+}
+#animalitos {
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario {
+    color: aliceblue;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+#boton {
+  background-color: rgb(119, 59, 175);
+  margin: 30px;
+} 
+
+#boton:hover {
+    background-color:rgb(223, 38, 205);
+}
